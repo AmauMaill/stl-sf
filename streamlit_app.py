@@ -40,6 +40,7 @@ elif add_sidebar == "Individual":
     #county_select = st.selectbox('Pick a County', df_clean.select("county").to_series())
     #city_select = st.selectbox('Pick a City', df_clean.select("city").to_series())
     #nhood_select = st.selectbox('Pick a Neighborhood', df_clean.select("nhood").to_series())
+    #slider on price
     st.write("Individual")
 elif add_sidebar == "Map":
     st.write("Map")
